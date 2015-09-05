@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		469E1BF91B9BB7D800072015 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469E1BF81B9BB7D800072015 /* AppDelegate.swift */; };
+		469E1BFB1B9BB7D800072015 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469E1BFA1B9BB7D800072015 /* ViewController.swift */; };
+		469E1BFE1B9BB7D800072015 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 469E1BFC1B9BB7D800072015 /* Main.storyboard */; };
+		469E1C001B9BB7D800072015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 469E1BFF1B9BB7D800072015 /* Assets.xcassets */; };
+		469E1C031B9BB7D800072015 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 469E1C011B9BB7D800072015 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		469E1BF51B9BB7D800072015 /* dope-floating-nav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dope-floating-nav.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		469E1BF81B9BB7D800072015 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		469E1BFA1B9BB7D800072015 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		469E1BFD1B9BB7D800072015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		469E1BFF1B9BB7D800072015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		469E1C021B9BB7D800072015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		469E1C041B9BB7D800072015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		469E1BF21B9BB7D800072015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		469E1BEC1B9BB7D800072015 = {
+			isa = PBXGroup;
+			children = (
+				469E1BF71B9BB7D800072015 /* dope-floating-nav */,
+				469E1BF61B9BB7D800072015 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		469E1BF61B9BB7D800072015 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				469E1BF51B9BB7D800072015 /* dope-floating-nav.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		469E1BF71B9BB7D800072015 /* dope-floating-nav */ = {
+			isa = PBXGroup;
+			children = (
+				469E1BF81B9BB7D800072015 /* AppDelegate.swift */,
+				469E1BFA1B9BB7D800072015 /* ViewController.swift */,
+				469E1BFC1B9BB7D800072015 /* Main.storyboard */,
+				469E1C0A1B9BB7E400072015 /* Resources */,
+			);
+			path = "dope-floating-nav";
+			sourceTree = "<group>";
+		};
+		469E1C0A1B9BB7E400072015 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				469E1BFF1B9BB7D800072015 /* Assets.xcassets */,
+				469E1C011B9BB7D800072015 /* LaunchScreen.storyboard */,
+				469E1C041B9BB7D800072015 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		469E1BF41B9BB7D800072015 /* dope-floating-nav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 469E1C071B9BB7D800072015 /* Build configuration list for PBXNativeTarget "dope-floating-nav" */;
+			buildPhases = (
+				469E1BF11B9BB7D800072015 /* Sources */,
+				469E1BF21B9BB7D800072015 /* Frameworks */,
+				469E1BF31B9BB7D800072015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dope-floating-nav";
+			productName = "dope-floating-nav";
+			productReference = 469E1BF51B9BB7D800072015 /* dope-floating-nav.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		469E1BED1B9BB7D800072015 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Andrew Breckenridge";
+				TargetAttributes = {
+					469E1BF41B9BB7D800072015 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 469E1BF01B9BB7D800072015 /* Build configuration list for PBXProject "dope-floating-nav" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 469E1BEC1B9BB7D800072015;
+			productRefGroup = 469E1BF61B9BB7D800072015 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				469E1BF41B9BB7D800072015 /* dope-floating-nav */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		469E1BF31B9BB7D800072015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				469E1C031B9BB7D800072015 /* LaunchScreen.storyboard in Resources */,
+				469E1C001B9BB7D800072015 /* Assets.xcassets in Resources */,
+				469E1BFE1B9BB7D800072015 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		469E1BF11B9BB7D800072015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				469E1BFB1B9BB7D800072015 /* ViewController.swift in Sources */,
+				469E1BF91B9BB7D800072015 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		469E1BFC1B9BB7D800072015 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				469E1BFD1B9BB7D800072015 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		469E1C011B9BB7D800072015 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				469E1C021B9BB7D800072015 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		469E1C051B9BB7D800072015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		469E1C061B9BB7D800072015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		469E1C081B9BB7D800072015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "dope-floating-nav/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tfw.dope-floating-nav";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		469E1C091B9BB7D800072015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "dope-floating-nav/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tfw.dope-floating-nav";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		469E1BF01B9BB7D800072015 /* Build configuration list for PBXProject "dope-floating-nav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				469E1C051B9BB7D800072015 /* Debug */,
+				469E1C061B9BB7D800072015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		469E1C071B9BB7D800072015 /* Build configuration list for PBXNativeTarget "dope-floating-nav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				469E1C081B9BB7D800072015 /* Debug */,
+				469E1C091B9BB7D800072015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 469E1BED1B9BB7D800072015 /* Project object */;
+}
