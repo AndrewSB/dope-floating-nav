@@ -10,16 +10,33 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    @IBOutlet weak var floatingButton: CircularButton!
+    @IBOutlet weak var floatingView: CircularView! {
+        didSet {
+//            floatingView.layer.anchorPoint = floatingButton.center
+        }
     }
+    var open = false
+    
+}
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+
+extension ViewController {
+
+    @IBAction func floatingButtonWasHit() {
+        
+        if open {
+            UIView.animateWithDuration(1) {
+                self.floatingView.frame = CGRectInset(self.floatingView.frame, -20, -20)
+            }
+        } else {
+            UIView.animateWithDuration(1) {
+                self.floatingView.frame = CGRectInset(self.floatingView.frame, 20, 20)
+            }
+        }
+        
+        open = !open
     }
-
 
 }
 

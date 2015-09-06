@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8142"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,11 +17,48 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kty-9O-iIT" userLabel="Larger View" customClass="CircularView" customModule="dope_floating_nav" customModuleProvider="target">
+                                <rect key="frame" x="260" y="505" width="80" height="80"/>
+                                <color key="backgroundColor" red="0.96470588235294119" green="0.97647058823529409" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="kty-9O-iIT" secondAttribute="height" id="FTX-pv-kAk"/>
+                                    <constraint firstAttribute="height" constant="80" id="zho-4H-WzI"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ymu-Fs-SRz" customClass="CircularButton" customModule="dope_floating_nav" customModuleProvider="target">
+                                <rect key="frame" x="275" y="520" width="50" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="FCK-nx-3WF"/>
+                                    <constraint firstAttribute="width" secondItem="ymu-Fs-SRz" secondAttribute="height" multiplier="1:1" id="TPA-8l-zD6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="46"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="6"/>
+                                <state key="normal" title="=">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="floatingButtonWasHit" destination="BYZ-38-t0r" eventType="touchDown" id="Mfp-ac-KwQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="kty-9O-iIT" firstAttribute="centerX" secondItem="ymu-Fs-SRz" secondAttribute="centerX" id="Y1u-dO-SHA"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ymu-Fs-SRz" secondAttribute="bottom" constant="30" id="ga5-Eu-qRa"/>
+                            <constraint firstItem="ymu-Fs-SRz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jtO-Og-1tD"/>
+                            <constraint firstItem="kty-9O-iIT" firstAttribute="centerY" secondItem="ymu-Fs-SRz" secondAttribute="centerY" id="oYu-43-IIF"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="floatingButton" destination="ymu-Fs-SRz" id="PH1-WN-9bE"/>
+                        <outlet property="floatingView" destination="kty-9O-iIT" id="924-tm-OfM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="289" y="372"/>
         </scene>
     </scenes>
 </document>
